@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  width: 100%;
+  height: 100vh;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.pagina-login {
+  background-image: url("../images/background-login.jpeg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.login-form-container {
+  width: 30%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background: #ffffff95;
+  border-radius: 8px;
+  padding: 30px;
+}
+
+.login-form-container form {
+  display: flex;
+  flex-flow: column wrap;
+  gap: 15px;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.login-form-container form .campo-email {
+  display: flex;
+  flex-flow: column wrap;
+}
+
+.login-form-container form .campo-senha div {
+  display: flex;
+  gap: 3px;
+}
+
+.login-form-container form .campo-mantenhame-conectado div {
+  display: flex;
+  gap: 3px;
+}
+
+.login-form-container form input[type="text"],
+.login-form-container form input[type="email"],
+.login-form-container form input[type="password"] {
+  width: 100%;
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+}
+
+.login-form-container form label {
+  color: #031e3f;
+}
+
+/* CSS */
+.generic-button,
+button {
+  align-items: center;
+  appearance: button;
+  background-color: #0276ff;
+  border-radius: 8px;
+  border-style: none;
+  box-shadow: rgba(255, 255, 255, 0.26) 0 1px 2px inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  flex-direction: row;
+  flex-shrink: 0;
+  font-family: "RM Neue", sans-serif;
+  font-size: 100%;
+  line-height: 1.15;
+  margin: 0;
+  padding: 10px 21px;
+  text-align: center;
+  text-transform: none;
+  transition: color 0.13s ease-in-out, background 0.13s ease-in-out,
+    opacity 0.13s ease-in-out, box-shadow 0.13s ease-in-out;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.generic-button {
+  width: 90px;
+  margin: auto;
+}
+
+.generic-button:active {
+  background-color: #006ae8;
+}
+
+.generic-button:hover {
+  background-color: #1c84ff;
+}
