@@ -11,14 +11,18 @@
       <div class="login-form-container">
         <img
           style="margin-bottom: 30px"
-          src="./images/logo-sgp-removebg-preview.png"
+          src="./images/logo-login-removebg-preview.png"
           alt=""
         />
-        <form action="">
+        <form action="pages/dashboard.html" class="form-login">
           <div class="campo-email">
             <label for="email">Email</label>
             <input type="email" id="email" name="email" placeholder="E-mail" />
           </div>
+
+          <span class="error-warn" style="color: #656565; font-size: 12px; margin-top: 5px"
+            >Nunca compartilhe suas credenciais!</span
+          >
 
           <div class="campo-senha">
             <label for="senha">Senha</label>
@@ -47,5 +51,7 @@
         </form>
       </div>
     </div>
+
+    <script src="js/login.js"></script>
   </body>
 </html>

@@ -69,6 +69,10 @@ body {
   border-radius: 8px;
 }
 
+input:focus {
+  outline: none;
+}
+
 .login-form-container form label {
   color: #031e3f;
 }
@@ -113,4 +117,14 @@ button {
 
 .generic-button:hover {
   background-color: #1c84ff;
+}
+
+.newErrorOrWarn {
+  width: 100%;
+  padding: 20px;
+  background: red;
+  color: white;
+  text-align: center;
+  border-radius: 8px;
+  font-size: 18px;
 }
