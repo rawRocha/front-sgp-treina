@@ -1,1 +1,1 @@
-# Front-end do Sistema de Gerenciemnto de Projetos
+# Front-end do Sistema de Gerenciamento de Projetos
